@@ -95,16 +95,16 @@ border: 0.9px solid #ddd;
     }
 
 
-.gender-container {
+.graduated-container {
     display: flex;
     gap: 10px;
 }
 
-.gender-container label {
+.graduated-container label {
     flex: 1;
 }
 
-.gender-container input[type="radio"] {
+.graduated-container input[type="radio"] {
     margin-right: 5px;
 }
 
