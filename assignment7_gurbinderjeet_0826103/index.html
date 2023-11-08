@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,25 +18,24 @@
         
         <div class="swiper-slide">
             <form id="form1" class="form-container">
-                <header>gurbinder - Personal Information</header>
+                <header>gurbinder - School Information</header>
                 <div class="input-field">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="school name">School Name:</label>
+                    <input type="text" id="schoolname" name="schoolname" required>
                 </div>
                 <div class="input-field">
-                    <label for="DOB">Date of Birth:</label>
-                    <input type="date" id="DOB" name="DOB" required>
+                    <label for="date of joining">Date of joining:</label>
+                    <input type="date" id="date of joining" name="date of joining" required>
                 </div>
-                <div class="gender-container">
-                    <label>
-                        <input type="radio" name="gender" value="male" > Male
-                    </label>
-                    <label>
-                        <input type="radio" name="gender" value="female" required> Female
-                    </label>
-                    <label>
-                        <input type="radio" name="gender" value="other"> Other
-                    </label>
+                <div class="graduated-container">
+                    <label for="graduated">Graduated:</label>
+                        <input type="radio" id="graduatedYes" name="graduated" value="Yes" required> Yes
+                        
+                   
+                    
+                        <input type="radio" id="graduatedNo" name="graduated" value="No" required> No
+                   
+                    
                 </div>
                 <div>
                     <input type="submit" value="Submit">
@@ -43,10 +43,10 @@
             </form>
         </div>
 
-        <!-- Contact Information -->
+      
         <div class="swiper-slide">
             <form id="form2" class="form-container">
-                <header>gurbinder - Contact Information</header>
+                <header>gurbinder - personal Information/header>
                 <div class="input-field">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required oninvalid="this.setCustomValidity('Please enter a valid email.')">
@@ -56,8 +56,8 @@
                     <input type="tel" id="phone" name="phone" pattern="^\d{10}$" required oninvalid="this.setCustomValidity('Please enter a 10-digit phone number.')">
                 </div>
                 <div class="input-field">
-                    <label for="address">Address:</label>
-                    <textarea id="address" name="address" required></textarea>
+                    <label for="zip code">Zip Code:</label>
+                    <input type="text" id="zipCode" name="zipCode" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required>
                 </div>
                 <div>
                     <input type="submit" value="Submit">
@@ -95,3 +95,4 @@
   <script src="form.js"></script>
 </body>
 </html>
+
