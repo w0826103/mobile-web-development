@@ -1,0 +1,46 @@
+
+body {
+    background-color: rgb(138, 157, 61);
+    
+    font-family: 'Arial', sans-serif; 
+}
+.col-md-4.bg-dark.text-white.p-3 {
+    border: 3px solid rgb(13, 111, 80);
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(234, 183, 87);
+    text-align: center;
+    margin: 15px 10px;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(238, 241, 89);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+
+@media screen and (max-width:1024px){
+    body{ background-color:rgb(210, 85, 105);}
+     
+ 
+ }
+ @media screen and (max-width:600px){
+    body{ background: rgb(9, 24, 100);
+     background: linear-gradient(90deg, rgb(244, 137, 91) 35%, rgba(115,35,26,1) 15%, rgba(0,212,255,1) 90%);
+ }
+ } 
+
+footer  {
+   
+    color: rgb(70, 68, 68);
+    text-align: center;
+    font-size: 2.5em;
+    padding: 3px
+}
+
+
