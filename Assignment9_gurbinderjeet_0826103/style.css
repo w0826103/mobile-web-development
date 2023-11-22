@@ -14,7 +14,7 @@ header nav {
 }
 
 header h1 {
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
     color: rgb(33, 146, 187);
 }
@@ -35,7 +35,6 @@ li a {
 
 
 section p {
-    text-transform: capitalize;
     font-size: 25px;
     color: rgb(37, 122, 145);
 }
