@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
+        <a class="navbar-brand" href="#">PRIME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Movies">Movies</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMovies" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMovies">
+                        <a class="dropdown-item" href="#">Romantic</a>
+                        <a class="dropdown-item" href="#">Comedy</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Sports">Sports</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    
+    <header class="bg-primary text-white text-center py-2">
+        <h1>Gurbinderjeet Kaur</h1>
+    </header>
+    
+    <div id="about" class="container py-3">
+        <h2>About Us</h2>
+        <p>Founded: February 2, 2005; 18 years ago]</p>
+        <p>Amazon Prime is a paid subscription service of Amazon which is available in various countries and gives users access to additional 
+            services otherwise unavailable or available at a premium to other Amazon customers.</p>
+    
+    </div>
+    
+    <div class="container bg-secondary text-primary py-3" id="movies">
+        <div class="row">
+            <div class="col-md-4" id="movie1">
+                <div class="card">
+                    <img src="movie1.jpeg" class="card-img-top" alt="Cinderella movie">
+                    <div class="card-body">
+                        <h5 class="card-title">Movie 1</h5>
+                        <p class="card-text">Cinderella</p>
+                        <p>The Classic fairytale story of Cinderella-a young girl, 
+                            mistreated by her step-mother and step-sisters, who finds out that dreams really can come true.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"id="movie2">
+                <div class="card">
+                    <img src="Movies2.jpeg" class="card-img-top" alt="Honsla Rakh movie">
+                    <div class="card-body">
+                        <h5 class="card-title">Movie 2</h5>
+                        <p class="card-text">Honsla Rakh</p>
+                        <p>The story of the film revolves around a divorced father, who raised his son single-handedly. 
+                            He starts to face problems when he starts dating. The situation gives arise to romance and comedy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="movie3">
+                <div class="card">
+                    <img src="Movie3.jpeg" class="card-img-top" alt="After movie">
+                    <div class="card-body">
+                        <h5 class="card-title">Movie 3</h5>
+                        <p class="card-text">After</p>
+                        <p>Tessa Young is a dedicated student, dutiful daughter and loyal girlfriend to her high school sweetheart. 
+                            Entering her first semester of college, Tessa's guarded world opens up when 
+                            she meets Hardin Scott, a mysterious and brooding rebel who makes her question all she thought she knew about herself and what she wants out of life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="bg-success text-white text-center">
+          &copy;  Gurbinderjeet Kaur
+        </p>
+    </footer>
+  
+</body>
+</html>
