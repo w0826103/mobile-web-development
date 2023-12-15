@@ -1,0 +1,8 @@
+.carousel-inner img{
+    max-height: 400px;
+    max-width: 800px;
+    place-content: center;
+}
+body{
+    background-color:blanchedalmond;
+}
